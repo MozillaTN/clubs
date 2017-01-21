@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Evento
+title: MozillaTN Club Name
 
 #What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
 event_label: Events
 
 description: > # this means to ignore newlines until "baseurl:"
-  MozillaTN <ClubName> is club under MozillaTN community actively contributing to various contribution of mozilla.
+  MozillaTN ClubName is club under MozillaTN community actively contributing to various contribution of mozilla.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
@@ -31,3 +31,7 @@ future: true
 
 permalink: /event/:title.html
 
+
+google_analytics: 'UA-63310670-1'
+disqus: true
+disqus_shortname: 'MozillaTN'
