@@ -21,8 +21,8 @@ domain_name: 'http://mozillatn.github.io'
 
 #These settings might be able to go?
 author: David Boyne
-twitter_username: boyney123
-github_username:  boyney123/evento
+twitter_username: MozillaTN
+github_username:  MozillaTN
 company_name: Comparethemarket
 
 # Build settings
@@ -31,7 +31,7 @@ markdown: kramdown
 #Have to show future posts for future events.
 future: true
 
-permalink: /event/:title.html
+permalink: /:categories/:title
 
 
 google_analytics: 'UA-63310670-1'
