@@ -15,7 +15,7 @@ description: > # this means to ignore newlines until "baseurl:"
   MozillaTN ClubName is club under MozillaTN community actively contributing to various contribution of mozilla.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: https://mozillatn.github.io/clubs
 
 #These settings might be able to go?
 author: David Boyne
