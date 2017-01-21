@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Create an event using Evento</title>
+  <meta name="description" content="MozillaTN <ClubName> is club under MozillaTN community actively contributing to various contribution of mozilla.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/create/">
+  <link rel="alternate" type="application/rss+xml" title="Evento" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Evento</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+            
+                <a class="page-link" href="/about/">About</a>
+            
+          
+        
+          
+            
+                <a class="page-link button button-primary" href="/create/">Create Event</a>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+  <div class="blog-cover" style="background-image:url(http://app-beacon.com/wp-content/uploads/2015/05/events.jpg);">
+
+  </div>
+  
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Create an event using Evento</h1>
+  </header>
+
+  <div class="post-content">
+    <p>Adding an event to your site is easy.</p>
+
+<p>#Getting started
+Create a new .md file or copy an existing post in the  <code class="highlighter-rouge">_posts</code> directory to get started. The post file name must be in this format:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">YYYY-MM-DD-title.md
+<span class="gh">#Example 2016-01-01-Back-At-Work-After-New-Year.md</span></code></pre></figure>
+
+<p>#Config for posts</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="nn">---</span>
+<span class="c1">#leave this alone</span>
+<span class="s">layout</span><span class="pi">:</span> <span class="s">post</span>
+
+<span class="c1">#Whats the title of your event.</span>
+<span class="s">title</span><span class="pi">:</span>  <span class="s2">"</span><span class="s">Talk</span><span class="nv"> </span><span class="s">on</span><span class="nv"> </span><span class="s">ES6</span><span class="nv"> </span><span class="s">JavaScript"</span>
+
+<span class="c1">#Url to your cover photo for your event. [optional - default will be used if not given]</span>
+<span class="s">cover</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://frontendmasters.com/assets/es6-logo.png"</span>
+
+<span class="c1">#The date of the event. </span>
+<span class="s">date</span><span class="pi">:</span>   <span class="s">2016-02-01 16:04:19 +0000</span>
+
+<span class="c1">#Start time of the event</span>
+<span class="s">start_time</span><span class="pi">:</span> <span class="s2">"</span><span class="s">12:00"</span>
+
+<span class="c1">#end time of the event</span>
+<span class="s">end_time</span><span class="pi">:</span> <span class="s2">"</span><span class="s">13:00"</span>
+
+<span class="c1">#event organiser details</span>
+
+<span class="c1">#event organiser details</span>
+<span class="s">organiser</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Frank</span><span class="nv"> </span><span class="s">Smith"</span>
+
+<span class="c1">#Make sure you setup your Organiser details in the _data directory in the organisers.yml file</span>
+
+<span class="nn">---</span></code></pre></figure>
+
+<p>#Post content</p>
+
+<p>After you have setup your config, all you need to do know is write your content using markdown.</p>
+
+<p>#Example Post</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="nn">---</span>
+<span class="s">layout</span><span class="pi">:</span> <span class="s">post</span>
+
+<span class="c1">#event information</span>
+<span class="s">title</span><span class="pi">:</span>  <span class="s2">"</span><span class="s">ReactJS"</span>
+<span class="s">cover</span><span class="pi">:</span> <span class="s2">"</span><span class="s">http://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png"</span>
+<span class="s">date</span><span class="pi">:</span>   <span class="s">2016-03-28</span>
+<span class="s">start_time</span><span class="pi">:</span> <span class="s2">"</span><span class="s">12:00"</span>
+<span class="s">end_time</span><span class="pi">:</span> <span class="s2">"</span><span class="s">13:00"</span>
+
+<span class="c1">#event organiser details</span>
+<span class="s">organiser_email</span><span class="pi">:</span> <span class="s2">"</span><span class="s">david.boyne@test.com"</span>
+<span class="s">organiser_name</span> <span class="pi">:</span> <span class="s2">"</span><span class="s">David</span><span class="nv"> </span><span class="s">Boyne"</span>
+<span class="s">organiser_photo</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://pbs.twimg.com/profile_images/660943257795457030/igA_joVD.jpg"</span>
+
+<span class="nn">---</span>
+
+I will be doing a small talk on an Introduction into ReactJS. We will cover the following:
+<span class="p">
+-</span> What is React?
+<span class="p">-</span> How to get setup with React.
+<span class="p">-</span> How to get building React Apps.
+<span class="p">-</span> Bundle your application
+<span class="p">-</span> Release your application
+
+If this sounds interesting please register your interest below.</code></pre></figure>
+
+<p>##Thats all folks
+Thats all you need to do. Once the website is built again using <code class="highlighter-rouge">jekyll build</code> or <code class="highlighter-rouge">jekyll serve</code> your new event will be shown.</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Evento</h2>
+    <p>
+      MozillaTN <ClubName> is club under MozillaTN community actively contributing to various contribution of mozilla.
+
+      <a href="https://twitter.com/mozillaTN"><span class="username">Twitter</span></a>
+<a href="https://www.facebook.com/mozillatn"><span class="username">Facebook</span></a>
+<a href="https://www.instagram.com/mozillatn/"><span class="username">Instagram</span></a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
