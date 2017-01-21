@@ -17,6 +17,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://mozillatn.github.io/clubs
 
+domain_name: 'http://mozillatn.github.io'
+
 #These settings might be able to go?
 author: David Boyne
 twitter_username: boyney123
