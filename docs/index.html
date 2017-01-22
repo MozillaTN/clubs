@@ -1,6 +1,6 @@
 ---
 layout: default
-cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
+cover: 'https://mozillatn.github.io/clubs/assets/mozilla-tn-bannerc.png'
 ---
 
 
@@ -17,13 +17,11 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 
         {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
 
-        {% if blogDate >= currentDate %}
+        {% if blogDate >= currentDate  %}
       
           <a href="{{ post.url | prepend: site.baseurl }}">
             {% if post.cover %}
             <div class="event-sqaure" style="background-image:url({{post.cover}});">
-            {% else %}
-            <div class="event-sqaure" style="background-image:url(http://evento.io/img/cover.jpg);">
             {% endif %}
               <h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
                <div class='event-square-overlay'></div>
@@ -42,13 +40,17 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 
         {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
 
+	{% if post.categories == "blog" %}
+                {{post.categories}}
+        {% endif %}
+	
+
         {% if blogDate < currentDate %}
 
-          <a href="{{ post.url | prepend: site.baseurl }}">
+
+  <a href="{{ post.url | prepend: site.baseurl }}">
             {% if post.cover %}
             <div class="event-sqaure" style="background-image:url({{post.cover}});">
-            {% else %}
-            <div class="event-sqaure" style="background-image:url(http://app-beacon.com/wp-content/uploads/2015/05/events.jpg);">
             {% endif %}
               <h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
               <div class='event-square-overlay'></div>
@@ -56,7 +58,8 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
             
           </a>
 
-        {% endif %}
+	
+	{% endif %}
 
       {% endfor %}
     </div>
