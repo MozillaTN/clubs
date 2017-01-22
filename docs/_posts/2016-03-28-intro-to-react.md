@@ -11,6 +11,8 @@ end_time: "13:00"
 #event organiser details
 organiser: "David Boyne"
 
+categories: event
+
 ---
 
 I will be doing a small talk on an Introduction into ReactJS. We will cover the following:
