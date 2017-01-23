@@ -1,4 +1,5 @@
 ## Details about your college and Contributor 
+### Issue name should be your college full name. For example    KIOT - Knowledge Institute odf Technology, Salem
 Did you check whether you college name exisit in issue : yes / no
  - College Name :
  - Contributor telegram handle :
