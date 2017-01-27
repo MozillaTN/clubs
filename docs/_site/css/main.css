@@ -151,6 +151,19 @@ footer {
 /**
  * Contributors
  */
+.contributors_wrapper {
+  display: flex;
+  flex-wrap: wrap; }
+
+.contributors {
+  margin: 0 1.66666% 0 1.66666%;
+  width: 30%; }
+
+.pic > img {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px; }
+
 /**
  * Site header
  */
