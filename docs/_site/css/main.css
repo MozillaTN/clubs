@@ -158,6 +158,10 @@ footer {
 .contributors {
   margin: 0 1.66666% 0 1.66666%;
   width: 30%; }
+  @media screen and (max-width: 600px) {
+    .contributors {
+      width: 80%;
+      margin: 0 10% 0 10%; } }
 
 .pic > img {
   border-radius: 50%;

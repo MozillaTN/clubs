@@ -227,6 +227,10 @@ footer{
   width: 30%;
 
 
+@include media-query($on-palm) {
+  width: 80%; 
+  margin: 0 10% 0 10%;
+}
 }
 
 .pic {
