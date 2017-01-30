@@ -9,7 +9,7 @@ start_time: "10:00"
 end_time: "17:00"
 
 #event organiser details
-organiser: "Frank Smith"
+organiser: "Nagaraj V"
 
 categories: event
 

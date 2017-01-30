@@ -9,7 +9,7 @@ start_time: "12:00"
 end_time: "13:00"
 
 #event organiser details
-organiser: "David Boyne"
+organiser: "Prasanth P"
 
 categories: event
 

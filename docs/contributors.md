@@ -3,6 +3,7 @@ layout: page
 navigation_title: Contributors
 title: Contributors
 permalink: /contributors/
+button: true
 ---
 
 Here are the list of amazing Mozilla contributors from our club.
@@ -12,9 +13,10 @@ Here are the list of amazing Mozilla contributors from our club.
 {% for contributor in site.data.present_contributors %}
 <div class="contributors">
 
-	<div class="pic" style="height: 130px; width: 130px"><img src="{{ contributor.photo }}"></div><br>
-	<p class="name">Name: {{ contributor.name }}</p>
-	<p class="contribution">Contribution Area: {{ contributor.contribution }}</p>
+<div class="pic" style="height: 130px; width: 130px">
+<img src="{{ contributor.photo }}"></div><br>
+<p class="name">Name: {{ contributor.name }}</p>
+<p class="contribution">Contribution Area: {{ contributor.contribution }}</p>
 	
 
 </div>
@@ -26,9 +28,13 @@ Here are the list of amazing Mozilla contributors from our club.
 {% for contributor in site.data.past_contributors %}
 <div class="contributors">
 
-	<div class="pic" style="height: 130px; width: 130px"><img src="{{ contributor.photo }}"></div><br>
-	<p class="name">Name: {{ contributor.name }}</p>
-	<p class="contribution">Contribution Area:{{ contributor.contribution }}</p>
+<div class="pic" style="height: 130px; width: 130px">
+
+<img src="{{ contributor.photo }}"></div><br>
+
+<p class="name">Name: {{ contributor.name }}</p>
+<p class="contribution">Contribution Area:{{ contributor.contribution }}</p>
+
 </div>
 {% endfor %}
 </div>

@@ -12,7 +12,11 @@ layout: default
         <h3 class="post-organisers-name">By {{organiser.name}}</h3>
     {% endif %}
     <h2 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h2>
-    <h3 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h3>
+    
+	{% if page.categories contains 'event' %}
+<h3 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h3>
+	{% endif %}
+
   </header>
 
   {% if organiser.photo %}
@@ -23,11 +27,11 @@ layout: default
     {{ content }}
   </div>
 
-    {% if organiser.email %}
-        <div>
-            <a href='mailto:{{organiser.email}}?subject=Register interest for {{page.title}} on {{ page.date | date: "%B %-d, %Y" }}&body=Hi! Im interested in your event. Can I come please?' class="button button-primary">Register Interest</a>
-        </div>
-    {% endif %}
+
+{% if page.categories contains 'blog' %}
+	<h3> Don't Forget to Share your comments below </h3>
+{% endif %}
+
 </article>
 
 
