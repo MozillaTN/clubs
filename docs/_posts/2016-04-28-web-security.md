@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Web Security"
-cover: "/assets/2017/web-secuirty.jpg"
+cover: "../assets/2017/web-secuirty.jpg"
 date:   2016-04-03
 start_time: "10:00"
 end_time: "17:00"
