@@ -5,21 +5,22 @@ title: About Evento
 permalink: /about/
 ---
 
-[Evento](https://github.com/boyney123/evento) a free to use open source Jekyll project I started that allows people to create internal/external events, showing times and information for anybody that wants to attend.
+Mozilla Tamilnadu is a volunteer community functioning under Mozilla India.
 
-# The Problem I was trying to solve
+We believe in keeping the power of web in people’s hands. We envision a world where web is **free and fair**.
 
+We believe the amplification of community voices and building relationships can lead to that impact of spreading ideas beyond just one community, to greater sets of audience.
 
-At my current place of work we run internal speaker events called Brownbags.
- 
-Brownbags are a great platform and environment for professionals to speak about anything that interests them. 
+Legend has it that folks here bleed code and pixels. (you can’t blame us if you encounter ambidextrous and sapiosexual people)
 
-The main problem I found was that there was no **easy to use** platform to see what Brownbags, Internal Training or other events are coming up or have already gone, so I created [Evento](https://github.com/boyney123/evento)
+We are a bunch of high spirited folks. We are a team.
 
-This free and opensource platform should allow any organisation or group to collect and share their events in one place.
+You and me. We and us.
 
-If you would like to contribute to the project or folk it for your own organisation or group feel free. 
+We are new, bountiful and infinite. We are a fresh generation of thinkers, movers and shakers. And we hope to succeed in our first attempt.
 
-<a href="https://github.com/boyney123/evento"><span class="icon icon--github">{% include icon-github.svg %}</span><span class="username">{{ include.username }}</span> Evento</a>
+Bleed. Flow. And remember to code.
 
+*Let’s get rid of the asterixes.*
 
+Buckle up for your journey into the world of open source.
