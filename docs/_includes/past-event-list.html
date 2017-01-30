@@ -7,13 +7,10 @@
 
         {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
 
-	{% if post.categories == "blog" %}
-                {{post.categories}}
-        {% endif %}
-	
 
         {% if blogDate < currentDate %}
-
+		
+	{% if post.categories contains 'event' %}
 
   <a href="{{ post.url | prepend: site.baseurl }}">
             {% if post.cover %}
@@ -24,7 +21,7 @@
             </div>
             
           </a>
-
+	{% endif %}
 	
 	{% endif %}
 
