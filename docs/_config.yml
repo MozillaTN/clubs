@@ -14,16 +14,15 @@ event_label: Events
 description: > # this means to ignore newlines until "baseurl:"
   MozillaTN ClubName is club under MozillaTN community actively contributing to various contribution of mozilla.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://mozillatn.github.io/clubs
+baseurl: "/clubs" # the subpath of your site, e.g. /blog
+url: https://mozillatn.github.io
 
 domain_name: 'http://mozillatn.github.io'
 
 #These settings might be able to go?
-author: David Boyne
+author: MozillaTN
 twitter_username: MozillaTN
 github_username:  MozillaTN
-company_name: Comparethemarket
 
 # Build settings
 markdown: kramdown
