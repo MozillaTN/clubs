@@ -415,7 +415,7 @@ footer {
   box-sizing: border-box;
   height: 180px;
   border-radius: 3px;
-  background-color: #fff;
+  background-color: #333;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
   border: 1px solid #ddd;
   -webkit-tap-highlight-color: transparent; }
@@ -472,7 +472,7 @@ footer {
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
 .event-time-heading.fix-top {
-  margin-top: 10px; }
+  margin-top: -10px; }
 
 .event-time-heading {
   margin-bottom: 0px;
