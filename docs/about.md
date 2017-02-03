@@ -3,6 +3,7 @@ layout: page
 navigation_title: About
 title: About MozillaTN ClubName
 permalink: /about/
+cover: 'https://mozillatn.github.io/clubs/assets/mozilla-tn-bannerc.png'
 ---
 
 Mozilla Tamilnadu is a volunteer community functioning under Mozilla India.
