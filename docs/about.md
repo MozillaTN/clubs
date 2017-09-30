@@ -25,3 +25,5 @@ Bleed. Flow. And remember to code.
 *Let’s get rid of the asterixes.*
 
 Buckle up for your journey into the world of open source.
+
+All the best
